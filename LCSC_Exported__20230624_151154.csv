@@ -1,0 +1,44 @@
+LCSC Part Number,Manufacture Part Number,Manufacturer,Customer NO.,Package,Description,RoHS,Order Qty.,Min\Mult Order Qty.,Unit Price,Order Price
+C27408,XC6SLX9-2TQG144C,XILINX,,LQFP-144(20x20), LQFP-144(20x20)  Programmable Logic Device (CPLDs/FPGAs) ROHS,YES,3,1\1,12.223,36.67
+C2939185,PJ322,HOOYA,,Plugin,3.5mm headphone jack Plugin  Audio Connectors ROHS,YES,5,5\5,0.1878,0.94
+C7258,MAX3232CSE+T,Analog Devices Inc./Maxim Integrated,,SOIC-16,235Kbps transceiver 2/2 SOIC-16  RS232 ICs ROHS,YES,3,1\1,0.7366,2.21
+C5250987,AMS1117-1.2,TWGMC,,SOT-223-3L, SOT-223-3L  Linear Voltage Regulators (LDO) ROHS,YES,10,10\10,0.032,0.32
+C6862,SPX1117M3-L-3-3/TR,MaxLinear,,SOT-223-4,70dB@(120Hz) 800mA null 12V~12V positive 20V SOT-223-4  Linear Voltage Regulators (LDO) ROHS,YES,5,5\5,0.1326,0.66
+C113767,W25Q128JVSIQ,Winbond Elec,,SOIC-8-208mil,128Mbit SPI SOIC-8-208mil  NOR FLASH ROHS,YES,3,1\1,0.6491,1.95
+C62246,W9825G6KH-6,Winbond Elec,,TSOPII-54, TSOPII-54  SDRAM ROHS,YES,3,1\1,1.2632,3.79
+C15908,SN74LVC245ANSR,Texas Instruments,,SOIC-20-208mil, SOIC-20-208mil  Buffer/Driver/Transceiver ROHS,YES,6,1\1,0.3214,1.93
+C700761,S3218432201060C2JB,JGHC,,SMD3225-4P,18.432MHz 20pF ±10ppm SMD3225-4P  Crystals ROHS,YES,5,5\5,0.0685,0.34
+C73548,17-21SYGC/S530-E2/TR8,Everlight Elec,,805,Colorless transparence -40℃~+85℃ 573nm~573nm Green/Yellow-Green 140° 60mW 0805  Light Emitting Diodes (LED) ROHS,YES,20,20\20,0.0196,0.39
+C2844454,17-21/R7C-AN2Q1B/3T,Everlight Elec,,805,Colorless transparence -40℃~+85℃ 625.5nm~637.5nm Red 120° 60mW 0805  Light Emitting Diodes (LED) ROHS,YES,20,20\20,0.0344,0.69
+C426873,"PTVS5V0P1UP,115",Nexperia,,SOD-128,9.2V 6.4V 5V SOD-128  TVS ROHS,YES,5,5\5,0.2995,1.5
+C6069530,BSS123,YFW,,SOT-23, SOT-23  MOSFETs ROHS,YES,100,50\50,0.0173,1.73
+C135330,ASMD0805-075,Shenzhen JDT Fuse,,805,6V 750mA 40A 1.5A 0805  Resettable Fuses ROHS,YES,10,10\10,0.0533,0.53
+C135324,ASMD0603-075,Shenzhen JDT Fuse,,603,6V 750mA 40A 1.4A 0603  Resettable Fuses ROHS,YES,10,10\10,0.0633,0.63
+C5249692,BC847B,ElecSuper,,SOT-23,0.2W 100mA NPN SOT-23  Bipolar Transistors - BJT ROHS,YES,5,5\5,0.0131,0.07
+C77848,DS1093-01-PN60,CONNFLY Elec,,Plugin,1A Female 6 -40℃~+105℃ Plugin  Circular Connectors & Cable Connectors ROHS,YES,5,5\5,0.3606,1.8
+C2962040,HYCW64-SD11-165B,HOAUC,,SMD, SMD  SD Card Connectors ROHS,YES,5,5\5,0.141,0.71
+C2906135,HDMI-01,HCTL,,SMD,19 Female HDMI Surface Mount SMD  D-Sub/DVI/HDMI Connectors ROHS,YES,5,5\5,0.2075,1.04
+C2763105,918-418K2023S40028,Jing Extension of the Electronic Co.,,SMD,USB 3.1 1 Surface Mount 6 Female -25℃~+85℃ Type-C SMD  USB Connectors ROHS,YES,5,5\5,0.0963,0.48
+C3011650,BLM18KG102SZ1D,Murata Electronics,,603,200mΩ 1kΩ@100MHz 0603  Ferrite Beads ROHS,YES,20,20\20,0.0202,0.4
+C209011,RMS06FT1000,TA-I Tech,,603,100mW Thick Film Resistors ±100ppm/℃ ±1% 100Ω 0603  Chip Resistor - Surface Mount ROHS,YES,50,50\50,0.0011,0.06
+C912493,RMS06JT102,TA-I Tech,,603,100mW ±5% ±200ppm/℃ 1kΩ 0603  Chip Resistor - Surface Mount ROHS,YES,50,50\50,0.0009,0.05
+C912509,RMS06JT332,TA-I Tech,,603,100mW ±5% ±200ppm/℃ 3.3kΩ 0603  Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.0011,0.11
+C101354,CR0603JA0472G,LIZ Elec,,603,100mW Thick Film Resistors ±5% ±200ppm/℃ 4.7kΩ 0603  Chip Resistor - Surface Mount ROHS,YES,20,20\20,0.001,0.02
+C417106,ERJU03F5600V,PANASONIC,,603,100mW Thick Film Resistors ±100ppm/℃ ±1% 560Ω 0603  Chip Resistor - Surface Mount ROHS,YES,20,20\20,0.0243,0.49
+C191782,ERJ3RBD5101V,PANASONIC,,603,100mW ±0.5% ±50ppm/℃ 5.1kΩ 0603  Chip Resistor - Surface Mount ROHS,YES,20,20\20,0.0192,0.38
+C2998546,C0603B106K010T,"IHHEC(HOLY STONE ENTERPRISE CO., LTD)",,603,10V 10uF X5R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,20,20\20,0.0221,0.44
+C157351,1206X106K100NT,FH (Guangdong Fenghua Advanced Tech),,1206,10V 10uF X5R ±10% 1206  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,20,20\20,0.0307,0.61
+C2169647,0603ZC103KAT2A,Kyocera AVX,,603,10V 10nF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,50,50\50,0.018,0.9
+C5157619,KH-DR9P-GS8.1,Shenzhen Kinghelm Elec,,Plugin,9 male D-Sub Plugin  D-Sub/DVI/HDMI Connectors ROHS,YES,10,5\5,0.3104,3.1
+C5453989,VH-4A-HT,CAX,,-, -  Pin Headers ROHS,YES,20,20\20,0.0294,0.59
+C2874270,TS-KG02N-BB45F,Hanbo Electronic,,Plugin,Yes 50mA Lying SPST 100MΩ 12V 250gf@±50gf Plugin  Tactile Switches ROHS,YES,10,1\1,0.2198,2.2
+C2927029,USB-TYPE-C-009,DEALON,,SMD,5A 1 Surface Mount 6 Female -25℃~+85℃ Type-C SMD  USB Connectors ROHS,YES,10,10\10,0.0382,0.38
+C503418,PUSB3FR4Z,Nexperia,,DFN2510A-10,3V@Typ 5.5V 3.3V@Max DFN2510A-10  TVS ROHS,YES,10,5\5,0.0753,0.75
+C103199,RTT031002FTP,RALEC,,603,100mW Thick Film Resistors ±100ppm/℃ ±1% 10kΩ 0603  Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.001,0.1
+C519438,CC0603KRX7R6BB104,YAGEO,,603,10V 100nF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,200,100\100,0.0032,0.64
+C458787,"74AHCT2G125DP,125",Nexperia,,TSSOP-8-3.0mm,8mA 4.5V~5.5V 8mA TSSOP-8-3.0mm  Buffer/Driver/Transceiver ROHS,YES,3,1\1,0.3787,1.14
+C6332197,HB-PH3-25414PB2GOP,Hanbo Electronic,,"Plugin,P=2.54mm","Gold 250V 3A Straight Square Pins 2.54mm 260℃ 6mm -40℃~+105℃ 4 3mm 2.54mm Brass Black Plugin 1x4P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS",YES,20,20\20,0.0192,0.38
+C2935905,DZ200R-11-06-39,DEALON,,"Plugin,P=2mm","1.5A Straight Square Pins 2mm 3.9mm 2.8mm 6 2mm Plugin 1x6P Plugin,P=2mm  Pin Headers ROHS",YES,20,20\20,0.0271,0.54
+C541862,PZ200V-11-08P,XFCN,,"Plugin,P=2mm","Straight Square Pins 2mm 3.9mm -40℃~+105℃ 2.8mm 8 2mm Plugin Black Brass 1x8P Plugin,P=2mm  Pin Headers ROHS",YES,20,20\20,0.0352,0.7
+C5157640,KH-2.54PH180-2X17P-L8.9,Shenzhen Kinghelm Elec,,"Plugin,P=2.54mm","Straight 2x17P 17 Push - Pull 2.54mm 2 Plugin,P=2.54mm  IDC Connectors ROHS",YES,5,5\5,0.3297,1.65
+C2829996,PH-00250,Liansheng,,"Plugin,P=2.54mm","3A Straight Square Pins 2.5mm 6mm -40℃~+105℃ 3mm 8 2.54mm Plugin 1x8P Plugin,P=2.54mm  Pin Headers ROHS",YES,20,20\20,0.0278,0.56
