@@ -83,7 +83,7 @@ To acquire all the necessary components for the DIY-A586-v1.9 board, I made the 
 4. **Tactile Switches from AliExpress:**
     - Lastly, I obtained the required tactile switches by making a purchase from AliExpress. I followed the link: [https://www.aliexpress.com/item/1005005274168459.html](https://www.aliexpress.com/item/1005005274168459.html) for **Type 3, 6x6x5mm switches**.
     
-## Soldering equipment (2023-06-24):
+## Soldering equipment (2023-06-24)
 
 To ensure a smooth soldering process, it is recommended to have the following tools and materials readily available:
 
@@ -96,6 +96,15 @@ To ensure a smooth soldering process, it is recommended to have the following to
 - **PCB Circuit Board Holder:** To simplify the soldering process and ensure stability, I will utilise a PCB circuit board holder from [https://www.ebay.co.uk/itm/155581423064](https://www.ebay.co.uk/itm/155581423064).
 
 - **Flux:** Soldering wire has flux core, so hopefully additional flux will not be needed but if required I will be using RELIFE RL-422 and Topnik TK-83.
+
+## PCBs (2023-07-06)
+
+Soon after ordering I received these wonderful PCB in matte black with ENIG surface finish.
+
+![JLCPCB Box](img/IMG_20230706_105938.jpg)
+![Wrapped package with PCBs](img/IMG_20230706_110036.jpg)
+![PCB showcase top and bottom](img/IMG_20230706_111830.jpg)
+
 
 ## Soldering process
 ### Planning
