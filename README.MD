@@ -72,7 +72,7 @@ Following parameters were used:
 To acquire all the necessary components for the DIY-A586-v1.9 board, I made the following purchases:
 
 1. **Bulk Order from LCSC:**
-    - I placed a bulk order from LCSC, a reliable electronics components supplier, to obtain the majority of the required parts. I exported BOM file from LCSC to [LCSC_Exported__20230624_151154.csv](LCSC_Exported__20230624_151154.csv). This file contains most of the components needed. As a precautionary measure I ordered additional components and BOM should allow to assemble 3 boards. 
+    - I placed a bulk order from LCSC, a reliable electronics components supplier, to obtain the majority of the required parts. I exported BOM file from LCSC to [LCSC_Exported__20230624_151154.csv](bom/LCSC_Exported__20230709_234719.csv). This file contains most of the components needed. As a precautionary measure I ordered additional components and BOM should allow to assemble 3 boards. 
 
 2. **1N4148 Diodes from eBay:**
     - I purchased the 1N4148 diodes from eBay using the following link: [https://www.ebay.co.uk/itm/115574778107](https://www.ebay.co.uk/itm/115574778107).
@@ -97,17 +97,28 @@ To ensure a smooth soldering process, it is recommended to have the following to
 
 - **Flux:** Soldering wire has flux core, so hopefully additional flux will not be needed but if required I will be using RELIFE RL-422 and Topnik TK-83.
 
+## Parts
+The BOM needs to be updated.
+1. I know for sure I ordered wrong floppy power headers, they are too big. Thus LCSC part numer C5453989 was removed from BOM.
+
 ## PCBs (2023-07-06)
 
-Soon after ordering I received these wonderful PCB in matte black with ENIG surface finish.
+Soon after ordering I received these wonderful PCBs in matte black with ENIG surface finish.
 
 ![JLCPCB Box](img/IMG_20230706_105938.jpg)
 ![Wrapped package with PCBs](img/IMG_20230706_110036.jpg)
 ![PCB showcase top and bottom](img/IMG_20230706_111830.jpg)
 
-
 ## Soldering process
-### Planning
+### Attempt no.1 (2023-07-09)
+
+I received my parts yesterday and was thrilled to begin soldering. I made the decision to start with the smallest components first, as successfully soldering them would make everything else much easier.
+
+After a few attempts with PUSB3FR4Z, I realized that I couldn't achieve a proper solder without a heat gun. Also the PCB got bastardized a bit in the process - at least they are not super expensive. Interestingly even though the piece is not exactly centered, multimeter test shows diodes between proper pins, so that's a plus.
+
+This setback will slow me down, but I am optimistic that the end result will be improved. They say that there are no failures, only feedback. The feedback so far is that I'm not very skilled at soldering tiny pieces and my hands are actually quite steady.
+
+![The end result in picture](img/IMG_20230709_163207.jpg)
 
 ### TBD
 
