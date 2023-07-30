@@ -118,7 +118,18 @@ After a few attempts with PUSB3FR4Z, I realized that I couldn't achieve a proper
 
 This setback will slow me down, but I am optimistic that the end result will be improved. They say that there are no failures, only feedback. The feedback so far is that I'm not very skilled at soldering tiny pieces and my hands are actually quite steady.
 
-![The end result in picture](img/IMG_20230709_163207.jpg)
+![Attempt no.1 in picture](img/IMG_20230709_163207.jpg)
+
+### Attempt no.2 (2023-07-30)
+
+Meanwhile, I got my hot air gun. Atten St-862D from China, as recommended by many people you cannot go wrong with it. I just haven't received soldering paste and I was not really planning to get back into soldering without this important component. But here we go, I got it right this time. Having good day, I decided to put second ESD protector as well. I hope these were the two most difficult parts to get.  
+
+Multimeter test passed, so next time I should be getting some more elements placed. It is the same PCB as before, just different light, different angle. Does not look bad apart from exposed traces, but we will fix them later.  
+
+I must say using hot air gun is probably more difficult than the iron so the actual soldering was done with very fine tip attached to soldering iron and I used my Atten just to remove the element for repositioning. Somehow hot air gun just heats up the flux but never gets the tin. I will learn it someday. 
+
+![Attempt no.2 in picture](img/IMG_20230730_200033.jpg)
+
 
 ### TBD
 
