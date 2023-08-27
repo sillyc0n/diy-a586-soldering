@@ -109,9 +109,7 @@ Soon after ordering I received these wonderful PCBs in matte black with ENIG sur
 ![Wrapped package with PCBs](img/IMG_20230706_110036.jpg)
 ![PCB showcase top and bottom](img/IMG_20230706_111830.jpg)
 
-## Building the thing 
-
-### Soldering first attempt (2023-07-09)
+## Building the thing - First attempt at soldering (2023-07-09)
 
 I received my parts yesterday and was thrilled to begin soldering. I made the decision to start with the smallest components first, as successfully soldering them would make everything else much easier.
 
@@ -121,7 +119,7 @@ This setback will slow me down, but I am optimistic that the end result will be 
 
 ![Attempt no.1 in picture](img/IMG_20230709_163207.jpg)
 
-### Soldering second attempt (2023-07-30)
+## Second attempt at soldering (2023-07-30)
 
 Meanwhile, I got my hot air gun, an Atten ST-862D from China, as recommended by many people. You cannot go wrong with it. I just haven't received soldering paste, and I was not really planning to get back into soldering without this important component. But here we go, I got it right this time. Having a good day, I decided to put a second ESD protector as well. I hope these were the two most difficult parts to get.
 
@@ -252,7 +250,41 @@ And put them away safely. They will be needed soon.
 
 That was the easy part. Looking forward to more soldering next time.
 
-TBC
+## Cavalry arrives - aka. meet ATTEN St-862D
+In this section we will have a look at hot-air gun a must have for SMD soldering if you don't want your hair to go grey - TBC.
+
+## Perfecting the Art of Soldering: Progress and Challenges (2023-08-26)
+Soldering is an intricate dance between skill and precision, and yesterday's endeavor on the next phase of my project showcased this beautifully. After overcoming the hurdles posed by those troublesome ESD protections, the rest felt like a breeze—especially when wielding a hot-air gun, of course. Reflecting on the process, I've already conjured plans to enhance the appearance of those minuscule components next time around. Just like with the quartz oscillator, I won't be approaching them timidly with a soldering iron; instead, I'll take them on headfirst with a gust of hot air. As it stands now, the setup should function seamlessly. Once the blemishes are concealed beneath a black mask, the final result promises to be nothing short of exquisite.
+
+The soldering was executed using Sn64Bi35Ag1 no3 paste at 350°C—an economical and lead-free choice. I still have some work to do on the upper side with a soldering iron and WSW SACL0. The matte finish of the solder joints needs a touch-up, and areas devoid of coverage necessitate attention too. On the flip side of the board, I have already gone over it with a soldering iron, yielding improved solder joints (at least some). However, a nagging question arises: could the temperature have been set too high? Overheating temporally seems unlikely, but perhaps I'll dial it down a bit. The images captured after the initial isopropanol cleanse still display a hint of cotton residue, as the material stubbornly clings on.
+
+The components around the FPGA and RAM have been intentionally left for the final phase. Although an alternative approach might involve soldering them to assess the aesthetic outcome, I'm considering the use of a soldering iron for a neater result.
+
+# Front of the board
+![Front of the soldered board after first phase of clean](img/2003-08-26%20front.jpg)
+
+# And Back
+![Back of the soldered board back after first phase of clean](img/2003-08-26%20back.jpg)
+
+Now, addressing a few queries and plans for moving forward:
+
+1. Component selection and Ordering on AliExpress:
+
+2. Upon approaching this phase of the project, I have realised an error in my component selection. Some of the items are currently ouf of stock at LCSC. A cost-effective alternative lies in ordering from AliExpress with cheaper shipping rates. Specifically:
+
+I intended to order 74AHCT2G125 in VSSOP-8 packaging, but mistakenly ordered TSSOP-8. The correct link is here: [Nexperia 74AHCT2G125DC,125 VSSOP-8](https://www.aliexpress.com/item/1005005545107429.html)
+
+Similarly, I meant to order 74LVC245APW in TSSOP-20 packaging but mistakenly selected SOP-20. The correct link to aliexpress part: [74LVC245APW TSSOP-20](https://www.aliexpress.com/item/1005001551266547.html)
+
+BOM for LCSC was also updated: [Updated Body Of Material CSV file](bom/LCSC_Exported__20230709_234719.csv). Remember the BOM contains parts for making 3 PCBs, so adjust accordingly.
+
+2. The Mystery of the PTVS5V0P1UP diode:
+An intriguing observation presents itself regarding the presence of diode PTVS5V0P1UP on the board in Piotr's project: [DIY-A586 v1.9 by piotr_go](https://github.com/piotr-go/DIY-A586/tree/master/v1.9) Upon reviewing project images, it's evident that this diode wasn't soldered. A decision must be made regarding its necessity in the final design.
+
+4. Seeking a Sturdy 4-Pin Floppy Drive Power Connector:
+The quest for the perfect 4-pin power connector for the floppy drive continues. Despite trying three different connectors, none seem to fit seamlessly due to the plastic housing bending upon cable connection. An ingenious workaround is to repurpose the 4-pin fan header from an old board, as it fits snugly without distortion.
+
+As the project inches closer to completion, the refining of soldering techniques and addressing these intricate challenges intertwine to shape a remarkable outcome. The journey is far from over, but each step draws us closer to a beautifully functional creation. Stay tuned for more updates on this thrilling endeavor!
 
 ## Credits
 
