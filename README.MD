@@ -159,7 +159,7 @@ Thanks for your help!
 Reading flash...
 ```
 
-![Flashrom programmer ch341a_spi in action](img/IMG_20230731_075546.jpg)
+![Flashrom programmer ch341a_spi connected and ready for action](img/IMG_20230731_075546.jpg)
 
 This only takes few minutes.
 ```
@@ -188,7 +188,7 @@ There are 2 files:
 main.bin main.d19
 ```
 
-I do not know what main.d19 is for, so for now, let's follow the instructions and work with main.bin. Let's adjust the binary file to the correct size.
+I do not know what `main.d19` is for, so for now, let's follow the instructions and work with `main.bin`. Let's adjust the binary file to the correct size.
 ```
 dd if=main.bin of=final.bin conv=notrunc
 672+0 records in
@@ -246,7 +246,7 @@ Verifying flash... VERIFIED.
 
 Since I bought more parts, enough to make three PCBs; let's program the other two flash roms, and we will be able to just solder them on later. 
 
-And put them away safely. They will be needed for the next part.
+And put them away safely. They will be needed soon.
 
 ![All three flash roms programmed and ready for storage](img/IMG_20230731_083703.jpg)
 
