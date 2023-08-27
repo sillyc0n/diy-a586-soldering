@@ -1,12 +1,12 @@
 LCSC Part Number,Manufacture Part Number,Manufacturer,Customer NO.,Package,Description,RoHS,Order Qty.,Min\Mult Order Qty.,Unit Price,Order Price
 C2935905,DZ200R-11-06-39,DEALON,,"Plugin,P=2mm","1.5A Straight Square Pins 2mm 6P 3.9mm 2.8mm 2mm Plugin 1x6P Plugin,P=2mm  Pin Headers ROHS",YES,20,20\20,0.0271,0.54
-C458787,"74AHCT2G125DP,125",Nexperia,,TSSOP-8-3.0mm,8mA 4.5V~5.5V 8mA TSSOP-8-3.0mm  Buffer/Driver/Transceiver ROHS,YES,3,1\1,0.3787,1.14
+C554634,74AHCT2G125DC-Q10H,Nexperia,,VSSOP-8,8mA 4.5V~5.5V 8mA VSSOP-8 Buffer/Driver/Transceiver ROHS,YES,3,1\1,0.242,�0.73 
 C2763105,918-418K2023S40028,Jing Extension of the Electronic Co.,,SMD,USB 3.1 1 Surface Mount 6P Female -25℃~+85℃ Type-C SMD  USB Connectors ROHS,YES,5,5\5,0.0963,0.48
 C2844454,17-21/R7C-AN2Q1B/3T,Everlight Elec,,805,Colorless transparence -40℃~+85℃ 625.5nm~637.5nm Red 120° 60mW 0805  Light Emitting Diodes (LED) ROHS,YES,20,20\20,0.0344,0.69
 C2169647,0603ZC103KAT2A,Kyocera AVX,,603,10V 10nF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,50,50\50,0.018,0.9
 C135324,ASMD0603-075,Shenzhen JDT Fuse,,603,6V 750mA 40A 1.4A 0603  Resettable Fuses ROHS,YES,10,10\10,0.0633,0.63
 C5157619,KH-DR9P-GS8.1,Shenzhen Kinghelm Elec,,Plugin,9P male D-Sub Plugin  D-Sub/DVI/HDMI Connectors ROHS,YES,10,5\5,0.3104,3.1
-C2998546,C0603B106K010T,"IHHEC(HOLY STONE ENTERPRISE CO., LTD)",,603,10V 10uF X5R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,20,20\20,0.0221,0.44
+C2998546,C0603B106K010T,"IHHEC(HOLY STONE ENTERPRISE CO., LTD)",,603,10V 10uF X5R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,40,20\20,0.0176,0.7
 C503418,PUSB3FR4Z,Nexperia,,DFN2510A-10,3V@Typ 5.5V 3.3V@Max DFN2510A-10  TVS ROHS,YES,10,5\5,0.0753,0.75
 C426873,"PTVS5V0P1UP,115",Nexperia,,SOD-128,9.2V 6.4V 5V SOD-128  TVS ROHS,YES,5,5\5,0.2995,1.5
 C6862,SPX1117M3-L-3-3/TR,MaxLinear,,SOT-223-4,70dB@(120Hz) 800mA null 12V~12V positive 20V SOT-223-4  Linear Voltage Regulators (LDO) ROHS,YES,5,5\5,0.1326,0.66
@@ -17,7 +17,7 @@ C2927029,USB-TYPE-C-009,DEALON,,SMD,5A 1 Surface Mount 6P Female -25℃~+85℃ T
 C77848,DS1093-01-PN60,CONNFLY Elec,,Plugin,1A Female 6P -40℃~+105℃ Plugin  Circular Connectors & Cable Connectors ROHS,YES,5,5\5,0.3606,1.8
 C191782,ERJ3RBD5101V,PANASONIC,,603,100mW ±0.5% ±50ppm/℃ 5.1kΩ 0603  Chip Resistor - Surface Mount ROHS,YES,20,20\20,0.0192,0.38
 C2829996,PH-00250,Liansheng,,"Plugin,P=2.54mm","3A Straight Square Pins 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm Plugin 1x8P Plugin,P=2.54mm  Pin Headers ROHS",YES,20,20\20,0.0278,0.56
-C15908,SN74LVC245ANSR,Texas Instruments,,SOIC-20-208mil, SOIC-20-208mil  Buffer/Driver/Transceiver ROHS,YES,6,1\1,0.3214,1.93
+C6082,"74LVC245APW,118",Nexperia,,TSSOP-20,8 24mA 1.2V~3.6V 24mA TSSOP-20 Buffer/Driver/Transceiver ROHS,YES,10,5\5,0.1954,1.95
 C27408,XC6SLX9-2TQG144C,XILINX,,LQFP-144(20x20), LQFP-144(20x20)  Programmable Logic Device (CPLDs/FPGAs) ROHS,YES,3,1\1,12.223,36.67
 C2962040,HYCW64-SD11-165B,HOAUC,,SMD, SMD  SD Card Connectors ROHS,YES,5,5\5,0.141,0.71
 C519438,CC0603KRX7R6BB104,YAGEO,,603,10V 100nF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,200,100\100,0.0032,0.64
