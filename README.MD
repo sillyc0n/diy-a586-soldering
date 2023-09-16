@@ -260,10 +260,10 @@ The soldering was executed using Sn64Bi35Ag1 no3 paste at 350°C—an economical
 
 The components around the FPGA and RAM have been intentionally left for the final phase. Although an alternative approach might involve soldering them to assess the aesthetic outcome, I'm considering the use of a soldering iron for a neater result.
 
-# Front of the board
+### Front of the board
 ![Front of the soldered board after first phase of clean](img/2003-08-26%20front.jpg)
 
-# And Back
+### And Back
 ![Back of the soldered board back after first phase of clean](img/2003-08-26%20back.jpg)
 
 Now, addressing a few queries and plans for moving forward:
@@ -285,6 +285,25 @@ An intriguing observation presents itself regarding the presence of diode PTVS5V
 The quest for the perfect 4-pin power connector for the floppy drive continues. Despite trying three different connectors, none seem to fit seamlessly due to the plastic housing bending upon cable connection. An ingenious workaround is to repurpose the 4-pin fan header from an old board, as it fits snugly without distortion.
 
 As the project inches closer to completion, the refining of soldering techniques and addressing these intricate challenges intertwine to shape a remarkable outcome. The journey is far from over, but each step draws us closer to a beautifully functional creation. Stay tuned for more updates on this thrilling endeavor!
+
+# Next Round (2023-09-16)
+I started by soldering the memory, ensuring each connection was precise and no shortcuts were made. It was a delicate process, but I took my time to get it just right. I moved on to soldering all the buffer transceivers.
+
+FPGA took some time, there is 144 connections, and you must be very gentle with the iron otherwise there is a chance of bending the legs. Which of course I did, took my a while to correct the mistake, but no parts was lost so that's positive. 
+
+There was also another issue - incorrectly soldered resistors from a previous attempt. I corrected that mistake and moved on.
+
+With the FPGA and memory in place and the resistors fixed, I hooked up the USB port for power and HDMI for video output. While I was hoping for the best, my heart did not race as I powered it on. I was certain it will work on first attempt. However, to my disappointment, the LEDs remained dark. Something was amiss.
+
+I decided to investigate the issue. After a bit of probing and testing, I discovered that the 3.3V voltage regulator's output was shortened to the ground.
+
+Eventually, I traced the problem back to the quartz component. It turned out that I had inadvertently used the wrong part. The quartz was short-circuiting because it wasn't the correct component for the job.
+
+Despite this setback, there had been some progress in my project. However, it is clear that we are not live yet.
+
+So, the saga continues, and the lessons keep coming. BOM has been fixed with the correct part that I have to order before we can continue
+
+![Front of the board with all of the elements on minus some ports and wrong oscillator](img/_DSC8837.jpg)
 
 ## Credits
 
