@@ -289,22 +289,41 @@ As the project inches closer to completion, the refining of soldering techniques
 # Next Round (2023-09-16)
 I started by soldering the memory, ensuring each connection was precise and no shortcuts were made. It was a delicate process, but I took my time to get it just right. I moved on to soldering all the buffer transceivers.
 
-FPGA took some time, there is 144 connections, and you must be very gentle with the iron otherwise there is a chance of bending the legs. Which of course I did, took my a while to correct the mistake, but no parts was lost so that's positive. 
+FPGA took some time, there is 144 connections, and you must be very gentle with the iron otherwise there is a chance of bending the legs. Which of course I did, took me a while to correct the mistake, but no parts was lost so that's positive. 
 
 There was also another issue - incorrectly soldered resistors from a previous attempt. I corrected that mistake and moved on.
 
 With the FPGA and memory in place and the resistors fixed, I hooked up the USB port for power and HDMI for video output. While I was hoping for the best, my heart did not race as I powered it on. I was certain it will work on first attempt. However, to my disappointment, the LEDs remained dark. Something was amiss.
 
-I decided to investigate the issue. After a bit of probing and testing, I discovered that the 3.3V voltage regulator's output was shortened to the ground.
+I decided to investigate the issue. After a bit of probing and testing, I discovered that the 3.3V voltage regulator's output was shorted to the ground.
 
 Eventually, I traced the problem back to the quartz component. It turned out that I had inadvertently used the wrong part. The quartz was short-circuiting because it wasn't the correct component for the job.
 
 Despite this setback, there had been some progress in my project. However, it is clear that we are not live yet.
 
-So, the saga continues, and the lessons keep coming. BOM has been fixed with the correct part that I have to order before we can continue
+So, the saga continues, and the lessons keep coming. BOM has been fixed with the correct part that I have to order before we can continue.
 
 ![Front of the board with all of the elements on minus some ports and wrong oscillator](img/_DSC8837.jpg)
 
+# Resurrecting the project with the right oscillator (2023-10-21)
+
+After a few weeks and some lost deliveries, I finally managed to acquire the correct oscillator and soldered it onto the board. Initially, I decided to leave the ports for later; after all, it's better to have more space in case any re-soldering becomes necessary. I thought to myself, "USB-C and HDMI should suffice for now."
+
+Upon connecting the power, the green LED blinked twice, and nothing else indicated whether the board was operational. I double-checked the voltages to ensure everything was functioning properly. The power circuits were indeed working, but it seemed that only every odd transistor near the PS-2 ports had 3.3V, while others had 2.0V. I wondered if this was normal. With a hint of uncertainty and the fear of something going awry, I connected my monitor. Thankfully, it worked like a charm. The menu opened up, albeit empty at that point, but the image was sharp and stable.
+
+I proceeded to solder the menu and reset buttons and powered the board again. At this point, it appeared that the MENU and RESET buttons might have been swapped. Pressing MENU while in the menu seemed to reset the board, and pressing RESET didn't appear to do anything. However, this behavior was apparently as it should be. The MENU button brings up the menu wherever you are, and pressing RESET only resets the running core as soon as you boot any of the cores.
+
+Next in line, I addressed the PS-2 ports and the SD-card slot, which are the minimum requirements for attempting an AmigaOS installation. I'll handle the floppy port and power some time later.
+
+A couple of notes for my future reference and for anyone else reading this: To run any of the cores, you need to transfer them onto an SD card formatted to FAT32. The main software that we flashed onto the Winbond flashrom has the capability to read files (cores, kickstarts, SD card support ROM) from FAT32. You need to store them on the ROM itself, so you can use a hard drive image from an SD card to boot your Amiga. Just follow the hints in the menu left by Piotr, and you'll find your way around.
+
+With that out of the way, you can prepare a hard drive image using your favorite UAE distribution and burn it onto the SD card. 4GB cards work best; Amiga can read them without any issues. Just remember that HDToolbox cannot read UAE disk files directly. You need to set SCSI_DEVICE_NAME=uaehf.device in the HDToolbox's Information accessed via the Icon menu. You can find full instructions on how to install Workbench here: [SD Card Amiga OS preparation howto](https://github.com/piotr-go/DIY-A586/tree/master/v1.9/cores/amiga#sd-card-amiga-os-preparation-howto)
+
+For Workbench 3.2, use kickstart 3.2.2.1. I couldn't get it to start properly on 3.1.4. Always use kickstarts for Amiga 500/600 since it is an Amiga 500 in FPGA after all.
+
+At this point, the Amiga is fully operational. All that remains is to solder the remaining ports and build two more boards to give away. Stay tuned.
+
+![Front of the board with most of the ports soldered. Ready to rock](img/_DSC8839.JPG)
 ## Credits
 
 Board designed by piotr_go. Thank you for answering my questions on Elektroda [DIY-A586 v1.9 by piotr_go](https://www.elektroda.pl/rtvforum/topic3891155-30.html).
